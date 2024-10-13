@@ -1,7 +1,12 @@
-import "./App.css";
+import "../App.css";
+import BrowserRouter from "./provider/BrowserRouter";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BrowserRouter />
+    </>
+  );
 }
 
 export default App;
